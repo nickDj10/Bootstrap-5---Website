@@ -1,0 +1,31 @@
+/* Landing Page */
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../gallery/background/circle.jpg");
+  background-size: 100% 100%;
+}
+nav {
+  font-weight: 500;
+  min-height: 10%;
+}
+.onFocus:focus {
+  background-color: #212529;
+}
+.hero-header {
+  height: 90%;
+}
+
+/* Our Team */
+
+.section-bg {
+  background-color: #f7f7f7;
+}
+
+/* Footer */
+
+.footer-list {
+  text-decoration: none;
+  padding: 2px;
+  display: inline-block;
+}
